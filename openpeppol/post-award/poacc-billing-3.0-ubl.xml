@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="urn:fdc:difi.no:2018:vefa:moribus:Profile-1">
+    <Id>bdf1e51a-4dcc-4421-ab2d-0033e8a6bfc9</Id>
+    <Domain>ac7c3fa5-ab5c-4ad2-a19d-7505d45ea924</Domain>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</Identifier>
+    <Title>PEPPOL BIS Billing 3.0 (UBL)</Title>
+
+    <Role>
+        <Id>ca416e85-abd2-45ae-a5b4-c656725819d9</Id>
+        <Type>REQUEST</Type>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2::CreditNote##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0::2.1</Identifier>
+            <Title>Credit Note</Title>
+        </DocumentType>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0::2.1</Identifier>
+            <Title>Invoice</Title>
+        </DocumentType>
+    </Role>
+
+</Profile>
