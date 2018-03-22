@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="urn:fdc:difi.no:2018:vefa:moribus:Profile-1">
+    <Id>4026f6de-e161-4a56-9149-aa8cd78945d1</Id>
+    <Domain>1b7e9d90-a4f1-4e1d-adad-c9e249a6bfd0</Domain>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:difi.no:2017:ehf:adv-ordering:3.0-pilot</Identifier>
+    <Title>EHF Advanced Ordering 3.0 (Piloting)</Title>
+
+    <Period>
+        <StartDate>2017-03-22</StartDate>
+    </Period>
+
+    <Role>
+        <Id>c67303ed-324c-441f-9b54-09c53266b489</Id>
+        <Type>REQUEST</Type>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Order-2::Order##urn:fdc:difi.no:2017:ehf:order:3.0-pilot::2.1</Identifier>
+            <Title>Order</Title>
+        </DocumentType>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:OrderCancellation-2::OrderCancellation##urn:fdc:difi.no:2017:ehf:order-cancellation:3.0-pilot::2.1</Identifier>
+            <Title>Order Cancellation</Title>
+        </DocumentType>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:OrderChange-2::OrderChange##urn:fdc:difi.no:2017:ehf:order-change:3.0-pilot::2.1</Identifier>
+            <Title>Order Change</Title>
+        </DocumentType>
+    </Role>
+
+    <Role>
+        <Id>f8b60f33-ef5d-4761-8465-e1219524541b</Id>
+        <Type>RESPONSE</Type>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:OrderResponse-2::OrderResponse##urn:fdc:difi.no:2017:ehf:order-response:3.0-pilot::2.1</Identifier>
+            <Title>Order Response</Title>
+        </DocumentType>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:OrderResponseSimple-2::OrderResponseSimple##urn:fdc:difi.no:2017:ehf:order-response-simple:3.0-pilot::2.1</Identifier>
+            <Title>Order Response (Simple)</Title>
+        </DocumentType>
+    </Role>
+</Profile>
