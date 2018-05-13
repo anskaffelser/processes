@@ -12,6 +12,7 @@
     <Role>
         <Id>862aabc5-afde-4f79-b877-874bbfd79e0f</Id>
         <Type>REQUEST</Type>
+        <Title>Customer</Title>
         <!-- <Dependency>705d8c8d-8ff1-4c21-a444-3e7481595696</Dependency> -->
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2::CreditNote##urn:www.cenbii.eu:transaction:biitrns014:ver2.0:extended:urn:www.cenbii.eu:profile:biixx:ver2.0:extended:urn:www.difi.no:ehf:kreditnota:ver2.0::2.1</Identifier>

@@ -12,6 +12,7 @@
     <Role>
         <Id>686975d3-5498-4197-95b2-42d1e50bc331</Id>
         <Type>REQUEST</Type>
+        <Title>Bank</Title>
 
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:iso:std:iso:20022:tech:xsd:pain.001.001.03::Document##urn:fdc:bits.no:2017:iso20022:1.5::03</Identifier>
@@ -42,6 +43,7 @@
     <Role>
         <Id>71207d34-7484-46aa-9b72-eb8791de5771</Id>
         <Type>RESPONSE</Type>
+        <Title>Customer</Title>
 
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:fdc:difi.no:2017:payment:extras-1::ReceptionAcknowledgement##urn:fdc:difi.no:2017:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:pain.001.001.03:restricted:urn:fdc:bits.no:2017:iso20022:1.5::1.0</Identifier>

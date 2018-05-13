@@ -12,6 +12,7 @@
     <Role>
         <Id>c67303ed-324c-441f-9b54-09c53266b489</Id>
         <Type>REQUEST</Type>
+        <Title>Provider</Title>
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Order-2::Order##urn:fdc:difi.no:2017:ehf:order:3.0-pilot::2.1</Identifier>
             <Title>Order</Title>
@@ -29,6 +30,7 @@
     <Role>
         <Id>f8b60f33-ef5d-4761-8465-e1219524541b</Id>
         <Type>RESPONSE</Type>
+        <Title>Customer</Title>
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:OrderResponse-2::OrderResponse##urn:fdc:difi.no:2017:ehf:order-response:3.0-pilot::2.1</Identifier>
             <Title>Order Response</Title>

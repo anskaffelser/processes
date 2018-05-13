@@ -8,6 +8,7 @@
     <Role>
         <Id>705d8c8d-8ff1-4c21-a444-3e7481595696</Id>
         <Type>REQUEST</Type>
+        <Title>Provider</Title>
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Order-2::Order##urn:www.cenbii.eu:transaction:biitrns001:ver2.0:extended:urn:www.peppol.eu:bis:peppol28a:ver1.0::2.1</Identifier>
             <Title>Order</Title>
@@ -17,6 +18,7 @@
     <Role>
         <Id>b53b5a75-bed3-485f-b82f-22ea93ba3fd4</Id>
         <Type>RESPONSE</Type>
+        <Title>Customer</Title>
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:OrderResponse-2::OrderResponse##urn:www.cenbii.eu:transaction:biitrns076:ver2.0:extended:urn:www.peppol.eu:bis:peppol28a:ver1.0::2.1</Identifier>
             <Title>Order Response</Title>
