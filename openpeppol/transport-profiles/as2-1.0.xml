@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransportProfile xmlns="urn:fdc:difi.no:2018:vefa:moribus:TransportProfile-1">
+    <Id>cc7f2fda-450c-4022-a99e-c6c12b090207</Id>
+    <Identifier>busdox-transport-as2-ver1p0</Identifier>
+    <Title>OpenPEPPOL AS2 1.0</Title>
+</TransportProfile>

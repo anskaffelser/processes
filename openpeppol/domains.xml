@@ -4,13 +4,25 @@
     <Domain>
         <Id>201a8711-307f-4ac5-ad75-0cf4693572f4</Id>
         <Qualifier>Pre-Award</Qualifier>
-        <Title>OpenPEPPOL</Title>
+        <Title>OpenPEPPOL G1</Title>
     </Domain>
 
     <Domain>
         <Id>ac7c3fa5-ab5c-4ad2-a19d-7505d45ea924</Id>
         <Qualifier>Post-Award</Qualifier>
         <Title>OpenPEPPOL G2</Title>
+        <TransportProfile>
+            <Id>cc7f2fda-450c-4022-a99e-c6c12b090207</Id>
+        </TransportProfile>
+    </Domain>
+
+    <Domain>
+        <Id>43b63605-8c58-4f21-9852-67108cb06a47</Id>
+        <Qualifier>Post-Award</Qualifier>
+        <Title>OpenPEPPOL G3</Title>
+        <TransportProfile>
+            <Id>cc7f2fda-450c-4022-a99e-c6c12b090207</Id>
+        </TransportProfile>
     </Domain>
 
 </Domains>
