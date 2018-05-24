@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="urn:fdc:difi.no:2018:vefa:moribus:Profile-1">
+    <Id>0844198f-8826-490e-8656-c503601bd6be</Id>
+    <Domain>ae64a50f-c7b1-4f2c-a937-b89f8273c5cf</Domain>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:bits.no:2017:profile:03:1.0</Identifier>
+    <Title>Salary payments (Profile 03)</Title>
+
+    <Period>
+        <StartDate>2017-07-01</StartDate>
+    </Period>
+
+    <Role>
+        <Id>70691e01-f30c-421e-a594-e6967d9264ee</Id>
+        <Type>REQUEST</Type>
+        <Title>Bank</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:iso:std:iso:20022:tech:xsd:pain.001.001.03::Document##urn:fdc:bits.no:2017:iso20022:1.5::03</Identifier>
+            <Title>Pain.001 Message</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:difi.no:2017:payment:extras-1::ReceptionAcknowledgement##urn:fdc:difi.no:2017:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:pain.002.001.03:restricted:urn:fdc:bits.no:2017:iso20022:1.5::1.0</Identifier>
+            <Title>Pain.002 Reception Acknowledgement</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:difi.no:2017:payment:extras-1::HandlingException##urn:fdc:difi.no:2017:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:pain.002.001.03:restricted:urn:fdc:bits.no:2017:iso20022:1.5::1.0</Identifier>
+            <Title>Pain.002 Handling Exception</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:difi.no:2017:payment:extras-1::ReceptionAcknowledgement##urn:fdc:difi.no:2017:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:camt.054.001.02:restricted:urn:fdc:bits.no:2017:iso20022:1.5::1.0</Identifier>
+            <Title>Camt.054 Reception Acknowledgement</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:difi.no:2017:payment:extras-1::HandlingException##urn:fdc:difi.no:2017:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:camt.054.001.02:restricted:urn:fdc:bits.no:2017:iso20022:1.5::1.0</Identifier>
+            <Title>Camt.054 Handling Exception</Title>
+        </DocumentType>
+    </Role>
+
+    <Role>
+        <Id>a99f6040-7f7d-4094-b1ff-6877ad82556a</Id>
+        <Type>RESPONSE</Type>
+        <Title>Customer</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:difi.no:2017:payment:extras-1::ReceptionAcknowledgement##urn:fdc:difi.no:2017:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:pain.001.001.03:restricted:urn:fdc:bits.no:2017:iso20022:1.5::1.0</Identifier>
+            <Title>Pain.001 Reception Acknowledgement</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:difi.no:2017:payment:extras-1::HandlingException##urn:fdc:difi.no:2017:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:pain.001.001.03:restricted:urn:fdc:bits.no:2017:iso20022:1.5::1.0</Identifier>
+            <Title>Pain.001 Handling Exception</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:iso:std:iso:20022:tech:xsd:pain.002.001.03::Document##urn:fdc:bits.no:2017:iso20022:1.5::03</Identifier>
+            <Title>Pain.002 Message</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:iso:std:iso:20022:tech:xsd:camt.054.001.02::Document##urn:fdc:bits.no:2017:iso20022:1.5::02</Identifier>
+            <Title>Camt.054 Message</Title>
+        </DocumentType>
+    </Role>
+</Profile>
