@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+
+    <Icd>
+        <Id>0007</Id>
+        <Title>Swedish Organization Number</Title>
+        <Issuer>The Swedish National Tax Board</Issuer>
+    </Icd>
+
+</Group>

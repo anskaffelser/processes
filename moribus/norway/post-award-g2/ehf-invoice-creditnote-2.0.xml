@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="urn:fdc:difi.no:2018:vefa:moribus:Profile-1">
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
     <Id>7e64c787-055a-4d05-b444-618285daf04c</Id>
-    <Domain>1b7e9d90-a4f1-4e1d-adad-c9e249a6bfd0</Domain>
+    <SubDomainId>1b7e9d90-a4f1-4e1d-adad-c9e249a6bfd0</SubDomainId>
     <Identifier scheme="cenbii-procid-ubl">urn:www.cenbii.eu:profile:bii05:ver2.0</Identifier>
     <Title>EHF Invoice and Credit Note 2.0 (Profile 5A)</Title>
+    <Alias>invoice-and-credit-note-2.0</Alias>
 
     <Period>
         <StartDate>2013-09-25</StartDate>
@@ -11,7 +12,7 @@
 
     <Role>
         <Id>5b32fa39-b2ab-4cbd-9545-aea36743c0d3</Id>
-        <Type>REQUEST</Type>
+        <Identifier>REQUEST</Identifier>
         <Title>Customer</Title>
         <!-- <Dependency>705d8c8d-8ff1-4c21-a444-3e7481595696</Dependency> -->
         <DocumentType>
@@ -30,9 +31,9 @@
         <Path>https://vefa.difi.no/ehf/standard/ehf-ordering-1.0.current/</Path>
     </Documentation> -->
 
-    <Documentation>
+    <!-- <Documentation>
         <Title>Github</Title>
         <Description>Source for all resources.</Description>
         <Path>https://github.com/difi/vefa-ehf-postaward</Path>
-    </Documentation>
-</Profile>
+    </Documentation> -->
+</Process>

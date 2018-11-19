@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+
+    <!-- <SubDomain>
+        <Id>970de6e5-8f67-4ae4-8323-4740ae317500</Id>
+        <DomainId>201a8711-307f-4ac5-ad75-0cf4693572f4</DomainId>
+        <Title>eSENS Transition-In</Title>
+    </SubDomain> -->
+
+    <SubDomain>
+        <Id>687aa7af-46b1-46f0-9798-dae3a6c1f326</Id>
+        <DomainId>ac7c3fa5-ab5c-4ad2-a19d-7505d45ea924</DomainId>
+        <Title>PEPPOL BIS 2.0 (Post-Award)</Title>
+        <Alias>peppol-bis-2.0</Alias>
+    </SubDomain>
+
+    <SubDomain>
+        <Id>01f2faf9-7eb8-4afd-ab5d-010d5b697a44</Id>
+        <DomainId>ac7c3fa5-ab5c-4ad2-a19d-7505d45ea924</DomainId>
+        <Title>PEPPOL BIS 3.0 (Post-Award)</Title>
+        <Alias>peppol-bis-3.0</Alias>
+    </SubDomain>
+
+</Group>

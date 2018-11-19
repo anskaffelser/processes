@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="urn:fdc:difi.no:2018:vefa:moribus:Profile-1">
-    <Id>dac00501-82be-46ed-8071-3466ca3d1652</Id>
-    <Domain>ae64a50f-c7b1-4f2c-a937-b89f8273c5cf</Domain>
-    <Identifier scheme="cenbii-procid-ubl">urn:fdc:bits.no:2017:profile:01:1.0</Identifier>
-    <Title>Payment initiation (Profile 01)</Title>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>0844198f-8826-490e-8656-c503601bd6be</Id>
+    <SubDomainId>b7009642-9be2-4550-b94b-40d9f8c7d1ac</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:bits.no:2017:profile:03:1.0</Identifier>
+    <Title>Salary payments (Profile 03)</Title>
+    <Alias>profile-03</Alias>
 
     <Period>
         <StartDate>2017-07-01</StartDate>
     </Period>
 
     <Role>
-        <Id>686975d3-5498-4197-95b2-42d1e50bc331</Id>
-        <Type>REQUEST</Type>
+        <Id>70691e01-f30c-421e-a594-e6967d9264ee</Id>
+        <Identifier>REQUEST</Identifier>
         <Title>Bank</Title>
 
         <DocumentType>
@@ -41,8 +42,8 @@
     </Role>
 
     <Role>
-        <Id>71207d34-7484-46aa-9b72-eb8791de5771</Id>
-        <Type>RESPONSE</Type>
+        <Id>a99f6040-7f7d-4094-b1ff-6877ad82556a</Id>
+        <Identifier>RESPONSE</Identifier>
         <Title>Customer</Title>
 
         <DocumentType>
@@ -65,4 +66,4 @@
             <Title>Camt.054 Message</Title>
         </DocumentType>
     </Role>
-</Profile>
+</Process>

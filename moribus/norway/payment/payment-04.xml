@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="urn:fdc:difi.no:2018:vefa:moribus:Profile-1">
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
     <Id>638c0b82-5a8f-467a-b919-30ea32017952</Id>
-    <Domain>ae64a50f-c7b1-4f2c-a937-b89f8273c5cf</Domain>
+    <SubDomainId>b7009642-9be2-4550-b94b-40d9f8c7d1ac</SubDomainId>
     <Identifier scheme="cenbii-procid-ubl">urn:fdc:bits.no:2017:profile:04:1.0</Identifier>
     <Title>Salary payments with request for cancellation (Profile 04)</Title>
+    <Alias>profile-04</Alias>
 
     <Period>
         <StartDate>2017-07-01</StartDate>
@@ -11,7 +12,7 @@
 
     <Role>
         <Id>408b046d-b30a-48ae-9553-08502b61e1bd</Id>
-        <Type>REQUEST</Type>
+        <Identifier>REQUEST</Identifier>
         <Title>Bank</Title>
 
         <DocumentType>
@@ -42,7 +43,7 @@
 
     <Role>
         <Id>6676a2c3-2605-45d4-a06e-d6c42bbc0dcd</Id>
-        <Type>RESPONSE</Type>
+        <Identifier>RESPONSE</Identifier>
         <Title>Customer</Title>
 
         <DocumentType>
@@ -65,4 +66,4 @@
             <Title>Camt.029 Message</Title>
         </DocumentType>
     </Role>
-</Profile>
+</Process>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="urn:fdc:difi.no:2018:vefa:moribus:Profile-1">
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
     <Id>dfba2828-f726-4d7c-8e81-1959054b1dba</Id>
-    <Domain>1b7e9d90-a4f1-4e1d-adad-c9e249a6bfd0</Domain>
+    <SubDomainId>1b7e9d90-a4f1-4e1d-adad-c9e249a6bfd0</SubDomainId>
     <Identifier scheme="cenbii-procid-ubl">urn:www.cenbii.eu:profile:bii01:ver2.0</Identifier>
     <Title>EHF Catalogue 1.0 (Profile 1A)</Title>
+    <Alias>catalogue-1.0</Alias>
 
     <Period>
         <StartDate>2013-09-25</StartDate>
@@ -11,7 +12,7 @@
 
     <Role>
         <Id>23934d3a-e3a5-4c05-88ff-d8e7e52d0293</Id>
-        <Type>REQUEST</Type>
+        <Identifier>REQUEST</Identifier>
         <Title>Customer</Title>
         <!-- <Dependency>705d8c8d-8ff1-4c21-a444-3e7481595696</Dependency> -->
         <DocumentType>
@@ -22,7 +23,7 @@
 
     <Role>
         <Id>a5e8432a-9266-4fd7-97d9-6649930ea9f8</Id>
-        <Type>RESPONSE</Type>
+        <Identifier>RESPONSE</Identifier>
         <Title>Provider</Title>
         <!-- <Dependency>705d8c8d-8ff1-4c21-a444-3e7481595696</Dependency> -->
         <DocumentType>
@@ -39,6 +40,6 @@
     <Documentation>
         <Title>Github</Title>
         <Description>Source for all resources.</Description>
-        <Path>https://github.com/difi/vefa-ehf-postaward</Path>
+        <Address>https://github.com/difi/vefa-ehf-postaward</Address>
     </Documentation>
-</Profile>
+</Process>

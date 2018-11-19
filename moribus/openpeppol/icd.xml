@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+
+    <Icd>
+        <Id>0060</Id>
+        <Title>DUNS</Title>
+        <Issuer>Dun and Bradstreet Ltd</Issuer>
+    </Icd>
+
+    <Icd>
+        <Id>0088</Id>
+        <Title>GLN</Title>
+        <Issuer>GS1</Issuer>
+    </Icd>
+
+</Group>

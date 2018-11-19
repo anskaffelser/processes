@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>c697d944-dcd0-4c58-abcd-c7d405752950</Id>
+    <SubDomainId>01f2faf9-7eb8-4afd-ab5d-010d5b697a44</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</Identifier>
+    <Title>PEPPOL BIS Billing 3.0 (CII)</Title>
+    <Alias>billing-3.0-01-cii</Alias>
+
+    <Role>
+        <Id>c697d944-dcd0-4c58-abcd-c7d405752950</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Customer</Title>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100::CrossIndustryInvoice##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0::D16B</Identifier>
+            <Title>Invoice and Credit Note</Title>
+        </DocumentType>
+    </Role>
+
+</Process>
