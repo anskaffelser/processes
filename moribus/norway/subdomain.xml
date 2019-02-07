@@ -20,12 +20,30 @@
     </SubDomain>
 
     <SubDomain>
+        <Id>e89d736f-2f47-441f-b79a-e90e1be5450b</Id>
+        <DomainId>201a8711-307f-4ac5-ad75-0cf4693572f4</DomainId>
+        <Title>EHF Pre-Award G2</Title>
+        <Alias>ehf-g2</Alias>
+
+        <IcdId>0192</IcdId>
+    </SubDomain>
+
+    <SubDomain>
         <Id>b7009642-9be2-4550-b94b-40d9f8c7d1ac</Id>
         <DomainId>155fbe7f-9f30-4f83-a3e5-c85173ecf85b</DomainId>
         <Title>Payment Norway G1</Title>
         <Alias>norway-g1</Alias>
 
         <IcdId>9908</IcdId>
+    </SubDomain>
+
+    <SubDomain>
+        <Id>30f47fe1-8178-4115-8f87-d3c0db56815e</Id>
+        <DomainId>30f47fe1-8178-4115-8f87-d3c0db56815e</DomainId>
+        <Title>EHF e-Government G1</Title>
+        <Alias>ehf-g1</Alias>
+
+        <IcdId>0192</IcdId>
     </SubDomain>
 
 </Group>

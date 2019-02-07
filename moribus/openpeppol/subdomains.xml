@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Group xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
 
-    <!-- <SubDomain>
+    <SubDomain>
         <Id>970de6e5-8f67-4ae4-8323-4740ae317500</Id>
         <DomainId>201a8711-307f-4ac5-ad75-0cf4693572f4</DomainId>
         <Title>eSENS Transition-In</Title>
-    </SubDomain> -->
+    </SubDomain>
 
     <SubDomain>
         <Id>687aa7af-46b1-46f0-9798-dae3a6c1f326</Id>
