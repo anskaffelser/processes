@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>efd890bd-d50f-44fc-8dc6-cc8a6d1ff2a3</Id>
+    <SubDomainId>b7009642-9be2-4550-b94b-40d9f8c7d1ac</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:bits.no:2017:profile:05:1.0</Identifier>
+    <Title>Billing (Profile 05)</Title>
+    <Alias>profile-05</Alias>
+
+    <Period>
+        <StartDate>2017-07-01</StartDate>
+    </Period>
+
+    <Role>
+        <Id>4b665298-a740-4c98-9540-6cf8ce08c90e</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Customer</Title>
+
+        <Encryption>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Encryption>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:iso:std:iso:20022:tech:xsd:camt.054.001.02::Document##urn:fdc:bits.no:2017:iso20022:1.5::02</Identifier>
+            <Title>B2C credit notification</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+    </Role>
+    
+    <Role>
+        <Id>5c069e60-7a0f-4113-a296-13012a49aef3</Id>
+        <Identifier>RESPONSE</Identifier>
+        <Title>Bank</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:difi.no:2017:payment:extras-1::ReceptionAcknowledgement##urn:fdc:difi.no:2017:payment:handling:1.0:for:urn:urn:iso:std:iso:20022:tech:xsd:camt.054.001.02:restricted:urn:fdc:bits.no:2017:iso20022:1.5::1.0</Identifier>
+            <Title>Camt.054 Reception Acknowledgement</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:difi.no:2017:payment:extras-1::HandlingException##urn:fdc:difi.no:2017:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:camt.054.001.02:restricted:urn:fdc:bits.no:2017:iso20022:1.5::1.0</Identifier>
+            <Title>Camt.054 Handling Exception</Title>
+        </DocumentType>
+    </Role>
+
+</Process>

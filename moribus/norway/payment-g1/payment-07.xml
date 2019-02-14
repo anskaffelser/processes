@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
-    <Id>638c0b82-5a8f-467a-b919-30ea32017952</Id>
+    <Id>e168d321-56e7-4a2e-b5e9-97d753bb0663</Id>
     <SubDomainId>b7009642-9be2-4550-b94b-40d9f8c7d1ac</SubDomainId>
-    <Identifier scheme="cenbii-procid-ubl">urn:fdc:bits.no:2017:profile:04:1.0</Identifier>
-    <Title>Salary payments with request for cancellation (Profile 04)</Title>
-    <Alias>profile-04</Alias>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:bits.no:2017:profile:07:1.0</Identifier>
+    <Title>Canselation of DirectDebit Initiation (Profile 07)</Title>
+    <Alias>profile-07</Alias>
 
     <Period>
         <StartDate>2017-07-01</StartDate>
     </Period>
 
     <Role>
-        <Id>408b046d-b30a-48ae-9553-08502b61e1bd</Id>
+        <Id>ca1f82a4-a475-414e-9177-a474aff132f8</Id>
         <Identifier>REQUEST</Identifier>
         <Title>Bank</Title>
 
         <Encryption>
-            <MinimumQuality>TBA</MinimumQuality>
+            <MinimumQuality>NCP</MinimumQuality>
         </Encryption>
 
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:iso:std:iso:20022:tech:xsd:camt.055.001.01::Document##urn:fdc:bits.no:2017:iso20022:1.5::01</Identifier>
-            <Title>Camt.055 Message</Title>
+            <Title>CustomerPaymentCancellationRequest</Title>
             <Encrypted>true</Encrypted>
         </DocumentType>
 
@@ -36,23 +36,24 @@
         </DocumentType>
 
         <DocumentType>
-            <Identifier scheme="busdox-docid-qns">urn:fdc:difi.no:2017:payment:extras-1::ReceptionAcknowledgement##urn:fdc:difi.no:2017:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:camt.029.001.03:restricted:urn:fdc:bits.no:2017:iso20022:1.5::1.0</Identifier>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:difi.no:2017:payment:extras-1::ReceptionAcknowledgement##urn:fdc:difi.no:2017:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:camt.054.001.02:restricted:urn:fdc:bits.no:2017:iso20022:1.5::1.0</Identifier>
             <Title>Camt.029 Reception Acknowledgement</Title>
         </DocumentType>
 
         <DocumentType>
-            <Identifier scheme="busdox-docid-qns">urn:fdc:difi.no:2017:payment:extras-1::HandlingException##urn:fdc:difi.no:2017:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:camt.029.001.03:restricted:urn:fdc:bits.no:2017:iso20022:1.5::1.0</Identifier>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:difi.no:2017:payment:extras-1::HandlingException##urn:fdc:difi.no:2017:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:camt.054.001.02:restricted:urn:fdc:bits.no:2017:iso20022:1.5::1.0</Identifier>
             <Title>Camt.029 Handling Exception</Title>
         </DocumentType>
-    </Role>
 
+    </Role>
+    
     <Role>
-        <Id>6676a2c3-2605-45d4-a06e-d6c42bbc0dcd</Id>
+        <Id>2f261e1b-e20a-4bff-9555-ee8bfc0581de</Id>
         <Identifier>RESPONSE</Identifier>
         <Title>Customer</Title>
 
         <Encryption>
-            <MinimumQuality>TBA</MinimumQuality>
+            <MinimumQuality>NCP</MinimumQuality>
         </Encryption>
 
         <DocumentType>
@@ -67,14 +68,16 @@
 
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:iso:std:iso:20022:tech:xsd:pain.002.001.03::Document##urn:fdc:bits.no:2017:iso20022:1.5::03</Identifier>
-            <Title>Pain.002 Message</Title>
+            <Title>Payment status report</Title>
             <Encrypted>true</Encrypted>
         </DocumentType>
 
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:iso:std:iso:20022:tech:xsd:camt.029.001.03::Document##urn:fdc:bits.no:2017:iso20022:1.5::03</Identifier>
-            <Title>Camt.029 Message</Title>
+            <Title>ResolutionOfInvestigation</Title>
             <Encrypted>true</Encrypted>
         </DocumentType>
+
     </Role>
+
 </Process>

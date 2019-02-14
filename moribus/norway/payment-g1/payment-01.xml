@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
-    <Id>0844198f-8826-490e-8656-c503601bd6be</Id>
+    <Id>dac00501-82be-46ed-8071-3466ca3d1652</Id>
     <SubDomainId>b7009642-9be2-4550-b94b-40d9f8c7d1ac</SubDomainId>
-    <Identifier scheme="cenbii-procid-ubl">urn:fdc:bits.no:2017:profile:03:1.0</Identifier>
-    <Title>Salary payments (Profile 03)</Title>
-    <Alias>profile-03</Alias>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:bits.no:2017:profile:01:1.0</Identifier>
+    <Title>Payment initiation (Profile 01)</Title>
+    <Alias>profile-01</Alias>
 
     <Period>
         <StartDate>2017-07-01</StartDate>
     </Period>
 
     <Role>
-        <Id>70691e01-f30c-421e-a594-e6967d9264ee</Id>
+        <Id>686975d3-5498-4197-95b2-42d1e50bc331</Id>
         <Identifier>REQUEST</Identifier>
         <Title>Bank</Title>
 
         <Encryption>
-            <MinimumQuality>TBA</MinimumQuality>
+            <MinimumQuality>NCP</MinimumQuality>
         </Encryption>
 
         <DocumentType>
@@ -47,12 +47,12 @@
     </Role>
 
     <Role>
-        <Id>a99f6040-7f7d-4094-b1ff-6877ad82556a</Id>
+        <Id>71207d34-7484-46aa-9b72-eb8791de5771</Id>
         <Identifier>RESPONSE</Identifier>
         <Title>Customer</Title>
 
         <Encryption>
-            <MinimumQuality>TBA</MinimumQuality>
+            <MinimumQuality>NCP</MinimumQuality>
         </Encryption>
 
         <DocumentType>
