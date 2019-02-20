@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>701b4930-a036-4f60-99a8-f9626e36a2b2</Id>
+    <SubDomainId>970de6e5-8f67-4ae4-8323-4740ae317500</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:peppol.eu:2017:pracc:p002:01:1.0</Identifier>
+    <Title>PEPPOL BIS Profile P002 - "Procurement document access"</Title>
+    <Alias>p002</Alias>
+    
+    <Role>
+        <Id>aa86334f-d602-495d-be32-08b4b521d460</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Contracting Authority</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:TenderStatusRequest-2::TenderStatusRequest##urn:www.cenbii.eu:transaction:biitrdm097:ver3.0:extended:urn:fdc:peppol.eu:2017:pracc:t003:ver1.0::2.2</Identifier>
+            <Title>TenderStatusRequest (T003)</Title>
+        </DocumentType>
+    </Role>
+    
+    <Role>
+        <Id>bb0a013b-7eb5-45d3-8f18-ceca2ccad659</Id>
+        <Identifier>RESPONSE</Identifier>
+        <Title>Economic Operator</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:CallForTenders-2::CallForTenders##urn:www.cenbii.eu:transaction:biitrdm083:ver3.0:extended:urn:fdc:peppol.eu:2017:pracc:t004:ver1.0::2.2</Identifier>
+            <Title>CallForTenders (T004)</Title>
+        </DocumentType>
+    </Role>
+
+</Process>

@@ -10,6 +10,7 @@
         <Id>cddf6770-b4c9-44aa-9c2c-c012f570710c</Id>
         <Identifier>REQUEST</Identifier>
         <Title>Contracting Authority</Title>
+
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:ExpressionOfInterestRequest-2::ExpressionOfInterestRequest##urn:www.cenbii.eu:transaction:biitrdm081:ver3.0:extended:urn:fdc:peppol.eu:2017:pracc:t001:ver1.0::2.2</Identifier>
             <Title>Expression Of Interest Request (T001)</Title>
@@ -20,6 +21,7 @@
         <Id>7ed8eb35-4885-45cf-9def-37c20e101a7c</Id>
         <Identifier>RESPONSE</Identifier>
         <Title>Economic Operator</Title>
+
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:ExpressionOfInterestResponse-2::ExpressionOfInterestResponse##urn:www.cenbii.eu:transaction:biitrdm082:ver3.0:extended:urn:fdc:peppol.eu:2017:pracc:t002:ver1.0::2.2</Identifier>
             <Title>Expression Of Interest Response (T002)</Title>
