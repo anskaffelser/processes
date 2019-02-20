@@ -5,6 +5,7 @@
         <Id>970de6e5-8f67-4ae4-8323-4740ae317500</Id>
         <DomainId>201a8711-307f-4ac5-ad75-0cf4693572f4</DomainId>
         <Title>eSENS Transition-In</Title>
+        <Alias>esens</Alias>
     </SubDomain>
 
     <SubDomain>

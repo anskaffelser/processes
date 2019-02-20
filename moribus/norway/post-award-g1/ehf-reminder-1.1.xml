@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
     <Id>a98ee018-6170-47cc-8c90-b457a049e035</Id>
-    <SubDomainId>1b7e9d90-a4f1-4e1d-adad-c9e249a6bfd0</SubDomainId>
+    <SubDomainId>146225e1-dad9-4d50-adf0-190846a936c3</SubDomainId>
     <Identifier scheme="cenbii-procid-ubl">urn:www.cenbii.eu:profile:biixy:ver2.0</Identifier>
-    <Title>EHF Reminder 1.0 (Profile XY)</Title>
-    <Alias>reminder-1.0</Alias>
+    <Title>EHF Reminder 1.1 (Profile XY)</Title>
+    <Alias>reminder-1.1</Alias>
 
     <Period>
         <StartDate>2013-09-25</StartDate>

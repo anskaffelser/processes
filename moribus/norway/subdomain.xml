@@ -2,6 +2,15 @@
 <Group xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
 
     <SubDomain>
+        <Id>146225e1-dad9-4d50-adf0-190846a936c3</Id>
+        <DomainId>ac7c3fa5-ab5c-4ad2-a19d-7505d45ea924</DomainId>
+        <Title>EHF Post-Award G1</Title>
+        <Alias>ehf-g1</Alias>
+
+        <IcdId>9908</IcdId>
+    </SubDomain>
+
+    <SubDomain>
         <Id>1b7e9d90-a4f1-4e1d-adad-c9e249a6bfd0</Id>
         <DomainId>ac7c3fa5-ab5c-4ad2-a19d-7505d45ea924</DomainId>
         <Title>EHF Post-Award G2</Title>
