@@ -13,7 +13,7 @@
     <Role>
         <Id>ec41bd7a-d79a-458e-9ce2-ac7a81fd96e0</Id>
         <Identifier>REQUEST</Identifier>
-        <Title>Customer</Title>
+        <Title>Contracting Authority</Title>
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Reminder-2::Reminder##urn:www.cenbii.eu:transaction:biicoretrdm017:ver1.0:#urn:www.cenbii.eu:profile:biixy:ver1.0#urn:www.difi.no:ehf:purring:ver1::2.0</Identifier>
             <Title>Reminder</Title>

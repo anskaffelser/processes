@@ -8,12 +8,13 @@
 
     <Period>
         <StartDate>2013-09-25</StartDate>
+        <EndDate>2019-06-30</EndDate>
     </Period>
 
     <Role>
         <Id>e54358ee-bad2-4b45-a360-da3775c9f3a3</Id>
         <Identifier>REQUEST</Identifier>
-        <Title>Customer</Title>
+        <Title>Contracting Authority</Title>
         <!-- <Dependency>705d8c8d-8ff1-4c21-a444-3e7481595696</Dependency> -->
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2::DespatchAdvice##urn:www.cenbii.eu:transaction:biitrns016:ver1.0:extended:urn:www.peppol.eu:bis:peppol30a:ver1.0:extended:urn:www.difi.no:ehf:pakkseddel:ver1.0::2.1</Identifier>

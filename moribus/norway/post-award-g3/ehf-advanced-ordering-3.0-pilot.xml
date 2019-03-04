@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
     <Id>4026f6de-e161-4a56-9149-aa8cd78945d1</Id>
-    <SubDomainId>1b7e9d90-a4f1-4e1d-adad-c9e249a6bfd0</SubDomainId>
+    <SubDomainId>27113a4b-a4dc-46c7-97f4-04220cfdb0e3</SubDomainId>
     <Identifier scheme="cenbii-procid-ubl">urn:fdc:difi.no:2017:ehf:adv-ordering:3.0-pilot</Identifier>
     <Title>EHF Advanced Ordering 3.0 (Piloting)</Title>
     <Alias>advorder-pilot</Alias>

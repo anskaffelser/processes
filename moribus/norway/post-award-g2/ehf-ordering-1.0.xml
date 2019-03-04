@@ -8,13 +8,14 @@
 
     <Period>
         <StartDate>2013-09-25</StartDate>
+        <EndDate>2019-06-30</EndDate>
     </Period>
 
     <Role>
         <Id>90c7e6f5-40f9-4ddb-9e91-1b4abd15855d</Id>
         <Identifier>REQUEST</Identifier>
-        <Title>Provider</Title>
-        <Dependency>705d8c8d-8ff1-4c21-a444-3e7481595696</Dependency>
+        <Title>Economic Operator</Title>
+
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Order-2::Order##urn:www.cenbii.eu:transaction:biitrns001:ver2.0:extended:urn:www.peppol.eu:bis:peppol28a:ver1.0:extended:urn:www.difi.no:ehf:ordre:ver1.0::2.1</Identifier>
             <Title>Order</Title>
@@ -24,8 +25,8 @@
     <Role>
         <Id>17a45a37-7d3a-466f-8fbc-00584045b060</Id>
         <Identifier>RESPONSE</Identifier>
-        <Title>Customer</Title>
-        <Dependency>b53b5a75-bed3-485f-b82f-22ea93ba3fd4</Dependency>
+        <Title>Contracting Authority</Title>
+
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:OrderResponse-2::OrderResponse##urn:www.cenbii.eu:transaction:biitrns076:ver2.0:extended:urn:www.peppol.eu:bis:peppol28a:ver1.0:extended:urn:www.difi.no:ehf:ordrebekreftelse:ver1.0::2.1</Identifier>
             <Title>Order Response</Title>

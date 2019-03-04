@@ -9,7 +9,8 @@
     <Role>
         <Id>c697d944-dcd0-4c58-abcd-c7d405752950</Id>
         <Identifier>REQUEST</Identifier>
-        <Title>Customer</Title>
+        <Title>Contracting Authority</Title>
+
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100::CrossIndustryInvoice##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0::D16B</Identifier>
             <Title>Invoice and Credit Note</Title>

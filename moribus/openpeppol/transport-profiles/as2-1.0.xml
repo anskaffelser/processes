@@ -3,5 +3,5 @@
     <Id>cc7f2fda-450c-4022-a99e-c6c12b090207</Id>
     <Identifier>busdox-transport-as2-ver1p0</Identifier>
     <Title>PEPPOL AS2 Specification 1.0</Title>
-    <Alias>peppol-as2</Alias>
+    <Alias>peppol-as2-1.0</Alias>
 </TransportProfile>
