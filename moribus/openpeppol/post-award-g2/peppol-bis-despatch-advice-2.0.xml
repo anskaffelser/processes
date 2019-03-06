@@ -6,6 +6,10 @@
     <Title>PEPPOL BIS Despatch Advice 2.0 (Profile 30A)</Title>
     <Alias>despatch-advice</Alias>
 
+    <Period>
+        <EndDate>2020-05-15</EndDate>
+    </Period>
+
     <Role>
         <Id>c0758bdc-e585-4fb4-844b-2ebdccb04967</Id>
         <Identifier>REQUEST</Identifier>

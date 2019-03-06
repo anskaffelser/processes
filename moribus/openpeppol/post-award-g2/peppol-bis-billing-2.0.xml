@@ -6,6 +6,10 @@
     <Title>PEPPOL BIS Billing 2.0 (Profile 5A)</Title>
     <Alias>billing</Alias>
 
+    <Period>
+        <EndDate>2019-12-31</EndDate>
+    </Period>
+
     <Role>
         <Id>431682af-8c6a-4cbd-a650-7de87a6670fab</Id>
         <Identifier>REQUEST</Identifier>

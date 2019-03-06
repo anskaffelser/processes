@@ -6,6 +6,10 @@
     <Title>PEPPOL BIS Catalogue Only 2.0 (Profile 1A)</Title>
     <Alias>cataloge-only</Alias>
 
+    <Period>
+        <EndDate>2020-05-15</EndDate>
+    </Period>
+
     <Role>
         <Id>e1b6e9d5-35e5-420f-b943-1b75e75d8346</Id>
         <Identifier>REQUEST</Identifier>

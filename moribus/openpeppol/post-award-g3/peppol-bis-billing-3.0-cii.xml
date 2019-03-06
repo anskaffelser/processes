@@ -6,6 +6,10 @@
     <Title>PEPPOL BIS Billing 3.0 (CII)</Title>
     <Alias>billing-3.0-01-cii</Alias>
 
+    <Period>
+        <StartDate>2018-02-27</StartDate>
+    </Period>
+
     <Role>
         <Id>c697d944-dcd0-4c58-abcd-c7d405752950</Id>
         <Identifier>REQUEST</Identifier>

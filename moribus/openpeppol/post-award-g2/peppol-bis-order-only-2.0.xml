@@ -3,8 +3,12 @@
     <Id>74678546-d742-4235-a426-686ed9ca393f</Id>
     <SubDomainId>687aa7af-46b1-46f0-9798-dae3a6c1f326</SubDomainId>
     <Identifier scheme="cenbii-procid-ubl">urn:www.cenbii.eu:profile:bii03:ver2.0</Identifier>
-    <Title>PEPPOL BIS ORder Only 2.0 (Profile 3A)</Title>
+    <Title>PEPPOL BIS Order Only 2.0 (Profile 3A)</Title>
     <Alias>order-only</Alias>
+
+    <Period>
+        <EndDate>2020-05-15</EndDate>
+    </Period>
 
     <Role>
         <Id>569eecee-5048-429a-aa79-0c319860713d</Id>

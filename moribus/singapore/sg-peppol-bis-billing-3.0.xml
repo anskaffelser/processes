@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>adb06cf2-c9f1-4963-b8ab-7ab632697b6d</Id>
+    <SubDomainId>f0466b06-81ab-4aed-b389-05e83a271fce</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</Identifier>
+    <Title>SG PEPPOL BIS Billing 3.0</Title>
+    <Alias>billing-3.0-01</Alias>
+
+    <Role>
+        <Id>cf9e4b0f-f6c3-43e9-a6da-7320cc324e3b</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Contracting Authority</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##>urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:sg:3.0::2.1</Identifier>
+            <Title>Invoice</Title>
+        </DocumentType>
+    </Role>
+
+</Process>

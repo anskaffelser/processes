@@ -6,18 +6,22 @@
     <Title>PEPPOL BIS Billing 3.0 (UBL)</Title>
     <Alias>billing-3.0-01-ubl</Alias>
 
+    <Period>
+        <StartDate>2018-02-27</StartDate>
+    </Period>
+
     <Role>
         <Id>ca416e85-abd2-45ae-a5b4-c656725819d9</Id>
         <Identifier>REQUEST</Identifier>
         <Title>Contracting Authority</Title>
 
         <DocumentType>
-            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2::CreditNote##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0::2.1</Identifier>
-            <Title>Credit Note</Title>
-        </DocumentType>
-        <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0::2.1</Identifier>
             <Title>Invoice</Title>
+        </DocumentType>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2::CreditNote##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0::2.1</Identifier>
+            <Title>Credit Note</Title>
         </DocumentType>
     </Role>
 

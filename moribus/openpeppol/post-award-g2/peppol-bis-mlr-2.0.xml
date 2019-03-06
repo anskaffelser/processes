@@ -6,6 +6,10 @@
     <Title>PEPPOL BIS Message Level Response 2.0 (Profile 36A)</Title>
     <Alias>mlr</Alias>
 
+    <Period>
+        <EndDate>2020-05-15</EndDate>
+    </Period>
+
     <Role>
         <Id>ea15cf84-357a-460c-bdd2-c10e2eec24bd</Id>
         <Identifier>REQUEST</Identifier>

@@ -6,6 +6,10 @@
     <Title>PEPPOL BIS Invoice 2.0 (Profile 4A)</Title>
     <Alias>invoice</Alias>
 
+    <Period>
+        <EndDate>2019-12-31</EndDate>
+    </Period>
+
     <Role>
         <Id>fa958d86-7f45-47b6-9a6e-f34f4c1a8bfb</Id>
         <Identifier>REQUEST</Identifier>

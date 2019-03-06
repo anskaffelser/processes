@@ -6,6 +6,10 @@
     <Title>PEPPOL BIS Ordering 2.0 (Profile 28A)</Title>
     <Alias>ordering</Alias>
 
+    <Period>
+        <EndDate>2020-05-15</EndDate>
+    </Period>
+
     <Role>
         <Id>705d8c8d-8ff1-4c21-a444-3e7481595696</Id>
         <Identifier>REQUEST</Identifier>

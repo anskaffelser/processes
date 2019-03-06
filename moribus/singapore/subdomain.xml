@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+
+    <SubDomain>
+        <Id>f0466b06-81ab-4aed-b389-05e83a271fce</Id>
+        <DomainId>ac7c3fa5-ab5c-4ad2-a19d-7505d45ea924</DomainId>
+        <Title>SG Post-Award G1</Title>
+        <Alias>sg-g1</Alias>
+    </SubDomain>
+
+</Group>
