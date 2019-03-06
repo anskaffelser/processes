@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>b1666823-010b-4671-bf0c-8a245c24f182</Id>
+    <SubDomainId>687aa7af-46b1-46f0-9798-dae3a6c1f326</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:www.cenbii.eu:profile:bii36:ver2.0</Identifier>
+    <Title>PEPPOL BIS Message Level Response 2.0 (Profile 36A)</Title>
+    <Alias>mlr</Alias>
+
+    <Role>
+        <Id>ea15cf84-357a-460c-bdd2-c10e2eec24bd</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Sender</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2::ApplicationResponse##urn:www.cenbii.eu:transaction:biitrns071:ver2.0:extended:urn:www.peppol.eu:bis:peppol36a:ver1.0::2.1</Identifier>
+            <Title>Response</Title>
+        </DocumentType>
+    </Role>
+
+</Process>

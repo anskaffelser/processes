@@ -5,6 +5,10 @@
     <Identifier scheme="bdx-procid-dsop">urn:fdc:bits.no:2018:dsop:account:1.0</Identifier>
     <Title>DSOP Account Information</Title>
     <Alias>dsop-account-01</Alias>
+
+    <Period>
+        <StartDate>2018-09-07</StartDate>
+    </Period>
     
     <Role>
         <Id>09b58af0-889a-4658-8ca8-4a71b0083f9f</Id>

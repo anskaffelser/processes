@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>aa84fc9e-5fa6-49c4-bc93-a245e6dbd58d</Id>
+    <SubDomainId>687aa7af-46b1-46f0-9798-dae3a6c1f326</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:www.cenbii.eu:profile:bii05:ver2.0</Identifier>
+    <Title>PEPPOL BIS Billing 2.0 (Profile 5A)</Title>
+    <Alias>billing</Alias>
+
+    <Role>
+        <Id>431682af-8c6a-4cbd-a650-7de87a6670fab</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Contracting Authority</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:www.cenbii.eu:transaction:biitrns010:ver2.0:extended:urn:www.peppol.eu:bis:peppol5a:ver2.0::2.1</Identifier>
+            <Title>Invoice</Title>
+        </DocumentType>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2::CreditNote##urn:www.cenbii.eu:transaction:biitrns014:ver2.0:extended:urn:www.peppol.eu:bis:peppol5a:ver2.0::2.1</Identifier>
+            <Title>Credit Note</Title>
+        </DocumentType>
+    </Role>
+
+</Process>

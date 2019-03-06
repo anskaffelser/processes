@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>616aaf16-959b-4294-ba6f-5bf5d7656949</Id>
+    <SubDomainId>687aa7af-46b1-46f0-9798-dae3a6c1f326</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:www.cenbii.eu:profile:bii04:ver2.0</Identifier>
+    <Title>PEPPOL BIS Invoice 2.0 (Profile 4A)</Title>
+    <Alias>invoice</Alias>
+
+    <Role>
+        <Id>fa958d86-7f45-47b6-9a6e-f34f4c1a8bfb</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Contracting Authority</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:www.cenbii.eu:transaction:biitrns010:ver2.0:extended:urn:www.peppol.eu:bis:peppol4a:ver2.0::2.1</Identifier>
+            <Title>Invoice</Title>
+        </DocumentType>
+    </Role>
+
+</Process>
