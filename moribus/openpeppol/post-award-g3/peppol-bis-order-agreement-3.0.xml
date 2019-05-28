@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>e15c86db-6bcf-4885-aa6a-b33e11e70ca5</Id>
+    <SubDomainId>01f2faf9-7eb8-4afd-ab5d-010d5b697a44</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:peppol.eu:poacc:bis:order_agreement:3</Identifier>
+    <Title>PEPPOL BIS Order Agreement 3.0</Title>
+    <Alias>order-agreement-3.0</Alias>
+
+    <Role>
+        <Id>a83991a7-1045-4c8d-87fd-14982144832a</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Contracting Authority</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:OrderResponse-2::OrderResponse##urn:fdc:peppol.eu:poacc:trns:order_agreement:3::2.1</Identifier>
+            <Title>Order Agreement</Title>
+        </DocumentType>
+    </Role>
+
+</Process>

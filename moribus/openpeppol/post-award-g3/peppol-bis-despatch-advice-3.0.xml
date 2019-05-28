@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>8f4223e6-8326-412b-9318-60a6a23e9ce1</Id>
+    <SubDomainId>01f2faf9-7eb8-4afd-ab5d-010d5b697a44</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:peppol.eu:poacc:bis:despatch_advice:3</Identifier>
+    <Title>PEPPOL BIS Despatch Advice 3.0</Title>
+    <Alias>despatch-advice-3.0</Alias>
+
+    <Role>
+        <Id>df900212-e1a8-4a31-9b72-36f88c847bbb</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Contracting Authority</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2::DespatchAdvice##urn:fdc:peppol.eu:poacc:trns:despatch_advice:3::2.1</Identifier>
+            <Title>Despatch Advice</Title>
+        </DocumentType>
+    </Role>
+
+</Process>

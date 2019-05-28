@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>6ed849aa-81a4-4bde-8d68-81291500717a</Id>
+    <SubDomainId>01f2faf9-7eb8-4afd-ab5d-010d5b697a44</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:peppol.eu:poacc:bis:order_only:3</Identifier>
+    <Title>PEPPOL BIS Order only 3.0</Title>
+    <Alias>order-only-3.0</Alias>
+
+    <Role>
+        <Id>c07a9f46-b504-4215-bf51-9a75a1e5eb3d</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Economic Operator</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Order-2::Order##urn:fdc:peppol.eu:poacc:trns:order:3::2.1</Identifier>
+            <Title>Order</Title>
+        </DocumentType>
+    </Role>
+</Process>

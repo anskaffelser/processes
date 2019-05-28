@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+
+    <Icd>
+        <Id>0195</Id>
+        <Title>Singapore Nationwide E-Invoice Framework</Title>
+        <Issuer>lnfocomm Media Development Authority</Issuer>
+    </Icd>
+
+</Group>

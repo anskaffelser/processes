@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>c97e3888-1df1-47bb-9850-8c09d009437d</Id>
+    <SubDomainId>01f2faf9-7eb8-4afd-ab5d-010d5b697a44</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:peppol.eu:poacc:bis:ordering:3</Identifier>
+    <Title>PEPPOL BIS Ordering 3.0</Title>
+    <Alias>ordering-3.0</Alias>
+
+    <Role>
+        <Id>9897e451-ce10-4d64-ba99-0a4630bb842a</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Economic Operator</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Order-2::Order##urn:fdc:peppol.eu:poacc:trns:order:3::2.1</Identifier>
+            <Title>Order</Title>
+        </DocumentType>
+    </Role>
+
+    <Role>
+        <Id>c47e6c4a-13ee-43a0-be9b-5bf4857d7d55</Id>
+        <Identifier>RESPONSE</Identifier>
+        <Title>Contracting Authority</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:OrderResponse-2::OrderResponse##urn:fdc:peppol.eu:poacc:trns:order_response:3::2.1</Identifier>
+            <Title>Order Response</Title>
+        </DocumentType>
+    </Role>
+
+</Process>
