@@ -2,7 +2,7 @@
 <Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
     <Id>0844198f-8826-490e-8656-c503601bd6be</Id>
     <SubDomainId>b7009642-9be2-4550-b94b-40d9f8c7d1ac</SubDomainId>
-    <Identifier scheme="cenbii-procid-ubl">urn:fdc:bits.no:2017:profile:03:1.0</Identifier>
+    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:03:1.0</Identifier>
     <Title>Salary payments (Profile 03)</Title>
     <Alias>profile-03</Alias>
 

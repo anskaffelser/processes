@@ -2,7 +2,7 @@
 <Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
     <Id>c4a0623a-0a58-48c4-8f3b-873f5c913b57</Id>
     <SubDomainId>b7009642-9be2-4550-b94b-40d9f8c7d1ac</SubDomainId>
-    <Identifier scheme="cenbii-procid-ubl">urn:fdc:bits.no:2017:profile:09:1.0</Identifier>
+    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:09:1.0</Identifier>
     <Title>Accounting/General Ledger/cash management (Profile 09)</Title>
     <Alias>profile-09</Alias>
 
@@ -25,7 +25,7 @@
             <Encrypted>true</Encrypted>
         </DocumentType>
     </Role>
-    
+
     <Role>
         <Id>1f1078d0-41c4-4eae-a0f8-f62887e2c5dc</Id>
         <Identifier>RESPONSE</Identifier>

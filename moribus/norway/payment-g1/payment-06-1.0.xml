@@ -2,7 +2,7 @@
 <Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
     <Id>2d27ae13-26ed-4eca-8dc3-ac3d80064801</Id>
     <SubDomainId>b7009642-9be2-4550-b94b-40d9f8c7d1ac</SubDomainId>
-    <Identifier scheme="cenbii-procid-ubl">urn:fdc:bits.no:2017:profile:06:1.0</Identifier>
+    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:06:1.0</Identifier>
     <Title>Billing system with Direct Debit (Profile 06)</Title>
     <Alias>profile-06</Alias>
 
@@ -46,7 +46,7 @@
         </DocumentType>
 
     </Role>
-    
+
     <Role>
         <Id>a016e4a0-0cb7-40a6-addb-2290d0caa000</Id>
         <Identifier>RESPONSE</Identifier>

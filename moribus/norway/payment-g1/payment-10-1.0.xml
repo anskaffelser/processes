@@ -2,7 +2,7 @@
 <Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
     <Id>720a0760-4091-43cd-8c91-1f82409469e1</Id>
     <SubDomainId>b7009642-9be2-4550-b94b-40d9f8c7d1ac</SubDomainId>
-    <Identifier scheme="cenbii-procid-ubl">urn:fdc:bits.no:2017:profile:10:1.0</Identifier>
+    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:10:1.0</Identifier>
     <Title>Profile 10</Title>
     <Alias>profile-10</Alias>
 
@@ -25,7 +25,7 @@
             <Encrypted>true</Encrypted>
         </DocumentType>
     </Role>
-    
+
     <Role>
         <Id>30c11d0d-af84-40a6-a99a-597c03ade343</Id>
         <Identifier>RESPONSE</Identifier>
