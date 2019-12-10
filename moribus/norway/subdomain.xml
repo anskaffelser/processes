@@ -43,6 +43,7 @@
         <Title>Payment Norway G1</Title>
         <Alias>norway-g1</Alias>
 
+        <IcdId>0192</IcdId>
         <IcdId>9908</IcdId>
     </SubDomain>
 
@@ -53,6 +54,7 @@
         <Alias>ehf-g1</Alias>
 
         <IcdId>0192</IcdId>
+        <IcdId>9908</IcdId>
     </SubDomain>
 
 </Group>
