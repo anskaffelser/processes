@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>b9b5db62-0960-4087-8982-136fe0769cbd</Id>
+    <SubDomainId>27113a4b-a4dc-46c7-97f4-04220cfdb0e3</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:anskaffelser.no:2019:ehf:postaward:g3:02:1.0</Identifier>
+    <Title>EHF Ordering 3.0</Title>
+    <Alias>ordering-3.0</Alias>
+
+    <Period>
+        <StartDate>2019-12-10</StartDate>
+    </Period>
+
+    <Role>
+        <Id>45d9d4b5-d6e0-49b5-856c-377167775fcf</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Supplier</Title>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Order-2::Order##urn:fdc:peppol.eu:poacc:trns:order:3:extended:urn:fdc:anskaffelser.no:2019:ehf:spec:3.0::2.2</Identifier>
+            <Title>Order</Title>
+        </DocumentType>
+    </Role>
+
+    <Role>
+        <Id>8d0cf1d7-2057-4dc6-98c8-974d9392b5c9</Id>
+        <Identifier>RESPONSE</Identifier>
+        <Title>Order</Title>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:OrderResponse-2::OrderResponse##urn:fdc:peppol.eu:poacc:trns:order_response:3:extended:urn:fdc:anskaffelser.no:2019:ehf:spec:3.0::2.2</Identifier>
+            <Title>Order Response</Title>
+        </DocumentType>
+    </Role>
+</Process>

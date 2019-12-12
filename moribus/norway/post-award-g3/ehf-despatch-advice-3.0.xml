@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>fde2cdb4-2509-4214-8dae-03c84db09d67</Id>
+    <SubDomainId>27113a4b-a4dc-46c7-97f4-04220cfdb0e3</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:anskaffelser.no:2019:ehf:postaward:g3:05:1.0</Identifier>
+    <Title>EHF Despatch Advice 3.0</Title>
+    <Alias>despatch-advice-3.0</Alias>
+
+    <Period>
+        <StartDate>2019-12-10</StartDate>
+    </Period>
+
+    <Role>
+        <Id>29508bcc-defe-4009-bace-dc1fe22f5ff9</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Customer</Title>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2::DespatchAdvice##urn:fdc:peppol.eu:poacc:trns:despatch_advice:3:extended:urn:fdc:anskaffelser.no:2019:ehf:spec:3.0::2.2</Identifier>
+            <Title>Despatch Advice</Title>
+        </DocumentType>
+    </Role>
+</Process>

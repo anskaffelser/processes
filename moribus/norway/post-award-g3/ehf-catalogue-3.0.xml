@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>c04bc4d9-819e-4952-b9cb-e12253e13e36</Id>
+    <SubDomainId>27113a4b-a4dc-46c7-97f4-04220cfdb0e3</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:anskaffelser.no:2019:ehf:postaward:g3:01:1.0</Identifier>
+    <Title>EHF Catalogue 3.0</Title>
+    <Alias>catalogue-3.0</Alias>
+
+    <Period>
+        <StartDate>2019-12-10</StartDate>
+    </Period>
+
+    <Role>
+        <Id>0d2d0d8f-4133-4bca-bb4a-fc9b1455322f</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Customer</Title>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Catalogue-2::Catalogue##urn:fdc:peppol.eu:poacc:trns:catalogue:3:extended:urn:fdc:anskaffelser.no:2019:ehf:spec:3.0::2.2</Identifier>
+            <Title>Catalogue</Title>
+        </DocumentType>
+    </Role>
+
+    <Role>
+        <Id>98641fc5-97e4-46eb-af55-271e8d8f9a90</Id>
+        <Identifier>RESPONSE</Identifier>
+        <Title>Supplier</Title>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2::ApplicationResponse##urn:fdc:peppol.eu:poacc:trns:catalogue_response:3:extended:urn:fdc:anskaffelser.no:2019:ehf:spec:3.0::2.2</Identifier>
+            <Title>Catalogue Response</Title>
+        </DocumentType>
+    </Role>
+</Process>

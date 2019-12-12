@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>8374257e-1d03-48fb-8746-12aebf152bf4</Id>
+    <SubDomainId>27113a4b-a4dc-46c7-97f4-04220cfdb0e3</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:anskaffelser.no:2019:ehf:postaward:g3:08:1.0</Identifier>
+    <Title>EHF Forward Billing 3.0</Title>
+    <Alias>forward-billing-3.0</Alias>
+
+    <Period>
+        <StartDate>2019-12-10</StartDate>
+    </Period>
+
+    <Role>
+        <Id>c24a5676-909a-4aa4-94fa-8c8752497d86</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Relaying party</Title>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0#conformant#urn:fdc:anskaffelser.no:2019:ehf:forward-billing:3.0::2.2</Identifier>
+            <Title>Invoice</Title>
+        </DocumentType>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2::CreditNote##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0#conformant#urn:fdc:anskaffelser.no:2019:ehf:forward-billing:3.0::2.2</Identifier>
+            <Title>Credit Note</Title>
+        </DocumentType>
+    </Role>
+</Process>
