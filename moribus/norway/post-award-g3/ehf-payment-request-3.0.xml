@@ -16,7 +16,7 @@
         <Title>Payer</Title>
         <DocumentType>
             <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:fdc:anskaffelser.no:2019:ehf:spec:payment-request:3.0::2.2</Identifier>
-            <Title>Despatch Advice</Title>
+            <Title>Payment Request</Title>
         </DocumentType>
     </Role>
 </Process>
