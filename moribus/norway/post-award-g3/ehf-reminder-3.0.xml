@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>197715ef-6f50-4e50-9e03-77f0c6906245</Id>
+    <SubDomainId>27113a4b-a4dc-46c7-97f4-04220cfdb0e3</SubDomainId>
+    <Identifier scheme="cenbii-procid-ubl">urn:fdc:anskaffelser.no:2019:ehf:postaward:g3:06:1.0</Identifier>
+    <Title>EHF Reminder 3.0</Title>
+    <Alias>reminder-3.0</Alias>
+
+    <Period>
+        <StartDate>2020-03-23</StartDate>
+    </Period>
+
+    <Role>
+        <Id>b4a50219-f13d-4d09-a9b5-afae9849c66a</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Customer</Title>
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0#conformant#urn:fdc:anskaffelser.no:2019:ehf:reminder:3.0::2.2</Identifier>
+            <Title>Reminder</Title>
+        </DocumentType>
+    </Role>
+
+</Process>
