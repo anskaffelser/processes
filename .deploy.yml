@@ -1,0 +1,7 @@
+site:
+  id: processes
+  type: site
+  path: target/site
+  properties:
+    domain: anskaffelser.dev
+    path: service/processes
