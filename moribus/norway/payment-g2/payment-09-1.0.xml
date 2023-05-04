@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>c8d482e7-d63e-4c17-baa1-3e981eab6617</Id>
+    <SubDomainId>b7c371ab-ceb0-4446-a481-ed69abf43b18</SubDomainId>
+    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:09:1.0</Identifier>
+    <Title>Accounting/General Ledger/cash management (Profile 09)</Title>
+    <Alias>profile-09</Alias>
+
+    <Period>
+        <StartDate>2017-07-01</StartDate>
+    </Period>
+
+    <Role>
+        <Id>97f1a839-698d-4513-9837-c192b6373e47</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Customer</Title>
+
+        <Encryption>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Encryption>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:iso:std:iso:20022:tech:xsd:camt.054.001.08::Document##urn:fdc:bits.no:2017:iso20022:2.0::08</Identifier>
+            <Title>B2C debit/credit notification</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+    </Role>
+
+    <Role>
+        <Id>815e99d4-b79d-484b-b280-af4539591eff</Id>
+        <Identifier>RESPONSE</Identifier>
+        <Title>Bank</Title>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:bits.no:2022:payment:extras-1::ReceptionAcknowledgement##urn:fdc:bits.no:2022:payment:handling:1.0:for:urn:urn:iso:std:iso:20022:tech:xsd:camt.054.001.08:restricted:urn:fdc:bits.no:2017:iso20022:2.0::1.0</Identifier>
+            <Title>Camt.054 Reception Acknowledgement</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:bits.no:2022:payment:extras-1::HandlingException##urn:fdc:bits.no:2022:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:camt.054.001.08:restricted:urn:fdc:bits.no:2017:iso20022:2.0::1.0</Identifier>
+            <Title>Camt.054 Handling Exception</Title>
+        </DocumentType>
+    </Role>
+
+</Process>

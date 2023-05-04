@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>51f22c77-f705-47be-a9fa-b4d70d840e51</Id>
+    <SubDomainId>b7c371ab-ceb0-4446-a481-ed69abf43b18</SubDomainId>
+    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:04:1.0</Identifier>
+    <Title>Salary payments with request for cancellation (Profile 04)</Title>
+    <Alias>profile-04</Alias>
+
+    <Period>
+        <StartDate>2017-07-01</StartDate>
+    </Period>
+
+    <Role>
+        <Id>a5b54d0b-2aae-4e2c-a00b-8a7aac537fd0</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Bank</Title>
+
+        <Encryption>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Encryption>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:iso:std:iso:20022:tech:xsd:camt.055.001.08::Document##urn:fdc:bits.no:2017:iso20022:2.0::08</Identifier>
+            <Title>Camt.055 Message</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:bits.no:2022:payment:extras-1::ReceptionAcknowledgement##urn:fdc:bits.no:2022:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:pain.002.001.10:restricted:urn:fdc:bits.no:2017:iso20022:2.0::1.0</Identifier>
+            <Title>Pain.002 Reception Acknowledgement</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:bits.no:2022:payment:extras-1::HandlingException##urn:fdc:bits.no:2022:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:pain.002.001.10:restricted:urn:fdc:bits.no:2017:iso20022:2.0::1.0</Identifier>
+            <Title>Pain.002 Handling Exception</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:bits.no:2022:payment:extras-1::ReceptionAcknowledgement##urn:fdc:bits.no:2022:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:camt.029.001.09:restricted:urn:fdc:bits.no:2017:iso20022:2.0::1.0</Identifier>
+            <Title>Camt.029 Reception Acknowledgement</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:bits.no:2022:payment:extras-1::HandlingException##urn:fdc:bits.no:2022:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:camt.029.001.09:restricted:urn:fdc:bits.no:2017:iso20022:2.0::1.0</Identifier>
+            <Title>Camt.029 Handling Exception</Title>
+        </DocumentType>
+    </Role>
+
+    <Role>
+        <Id>d7f8252b-8c30-405c-bde3-5290e5b2d8e5</Id>
+        <Identifier>RESPONSE</Identifier>
+        <Title>Customer</Title>
+
+        <Encryption>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Encryption>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:bits.no:2022:payment:extras-1::ReceptionAcknowledgement##urn:fdc:bits.no:2022:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:camt.055.001.08:restricted:urn:fdc:bits.no:2017:iso20022:2.0::1.0</Identifier>
+            <Title>Camt.055 Reception Acknowledgement</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:fdc:bits.no:2022:payment:extras-1::HandlingException##urn:fdc:bits.no:2022:payment:handling:1.0:for:urn:iso:std:iso:20022:tech:xsd:camt.055.001.08:restricted:urn:fdc:bits.no:2017:iso20022:2.0::1.0</Identifier>
+            <Title>Camt.055 Handling Exception</Title>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:iso:std:iso:20022:tech:xsd:pain.002.001.10::Document##urn:fdc:bits.no:2017:iso20022:2.0::10</Identifier>
+            <Title>Pain.002 Message</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+
+        <DocumentType>
+            <Identifier scheme="busdox-docid-qns">urn:iso:std:iso:20022:tech:xsd:camt.029.001.09::Document##urn:fdc:bits.no:2017:iso20022:2.0::09</Identifier>
+            <Title>Camt.029 Message</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+    </Role>
+</Process>
