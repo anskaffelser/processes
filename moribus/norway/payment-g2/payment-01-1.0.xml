@@ -2,7 +2,7 @@
 <Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
     <Id>83ecced7-0297-4413-a84d-dbc1ba8596b3</Id>
     <SubDomainId>b7c371ab-ceb0-4446-a481-ed69abf43b18</SubDomainId>
-    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:01:1.0</Identifier>
+    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:01:2.0</Identifier>
     <Title>Payment initiation (Profile 01)</Title>
     <Alias>profile-01</Alias>
 

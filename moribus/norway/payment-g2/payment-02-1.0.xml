@@ -2,7 +2,7 @@
 <Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
     <Id>0406a4c7-c78f-4fa8-95eb-3cf5bb5820c5</Id>
     <SubDomainId>b7c371ab-ceb0-4446-a481-ed69abf43b18</SubDomainId>
-    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:02:1.0</Identifier>
+    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:02:2.0</Identifier>
     <Title>Cancellation of General Credit transfer Initiation (Profile 02)</Title>
     <Alias>profile-02</Alias>
 

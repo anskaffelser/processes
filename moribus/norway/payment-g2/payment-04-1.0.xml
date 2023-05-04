@@ -2,7 +2,7 @@
 <Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
     <Id>51f22c77-f705-47be-a9fa-b4d70d840e51</Id>
     <SubDomainId>b7c371ab-ceb0-4446-a481-ed69abf43b18</SubDomainId>
-    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:04:1.0</Identifier>
+    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:04:2.0</Identifier>
     <Title>Salary payments with request for cancellation (Profile 04)</Title>
     <Alias>profile-04</Alias>
 

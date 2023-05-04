@@ -2,7 +2,7 @@
 <Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
     <Id>c8d482e7-d63e-4c17-baa1-3e981eab6617</Id>
     <SubDomainId>b7c371ab-ceb0-4446-a481-ed69abf43b18</SubDomainId>
-    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:09:1.0</Identifier>
+    <Identifier scheme="busdox-procid-ubl">urn:fdc:bits.no:2017:profile:09:2.0</Identifier>
     <Title>Accounting/General Ledger/cash management (Profile 09)</Title>
     <Alias>profile-09</Alias>
 
