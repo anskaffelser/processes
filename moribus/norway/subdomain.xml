@@ -47,7 +47,17 @@
         <IcdId>9908</IcdId>
     </SubDomain>
 
-    <SubDomain>
+	<SubDomain>
+		<Id>b7c371ab-ceb0-4446-a481-ed69abf43b18</Id>
+		<DomainId>155fbe7f-9f30-4f83-a3e5-c85173ecf85b</DomainId>
+		<Title>Payment Norway G2</Title>
+		<Alias>norway-g2</Alias>
+
+		<IcdId>0192</IcdId>
+		<IcdId>9908</IcdId>
+	</SubDomain>
+
+	<SubDomain>
         <Id>30f47fe1-8178-4115-8f87-d3c0db56815e</Id>
         <DomainId>967111cb-4617-4557-819b-50dde49ba92b</DomainId>
         <Title>EHF e-Government G1</Title>
